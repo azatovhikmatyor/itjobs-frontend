@@ -1,0 +1,5 @@
+{
+  "name": "IT-JOBS",
+  "description": "An AI-powered job application agent that tailors resumes, generates cover letters, and matches jobs using Gemini models.",
+  "requestFramePermissions": []
+}
