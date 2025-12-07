@@ -11,7 +11,7 @@ import { Job } from '../types';
  * propagate an exception.
  */
 export const fetchJobs = async (): Promise<Job[]> => {
-  const response = await fetch('http://localhost:8000/jobs');
+  const response = await fetch('https://itjobs-agent-backend.azurewebsites.net/jobs');
   if (!response.ok) {
     throw new Error(`Failed to fetch jobs: ${response.status} ${response.statusText}`);
   }
